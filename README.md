@@ -24,12 +24,12 @@ from sentence_transformers import CrossEncoder<br>
 model = CrossEncoder('model_name', max_length=512)<br>
 scores = model.predict([('Query1', 'Paragraph1'), ('Query1', 'Paragraph2')])<br>
 
-#For Example
+#For Example<br>
 scores = model.predict([('How many people live in Berlin?', 'Berlin had a population of 3,520,031 registered inhabitants in an area of 891.82 square kilometers.'), 
                         ('How many people live in Berlin?', 'Berlin is well known for its museums.')])<br>
-model_name现有的fine-tinue:
-cross-encoder/ms-marco-TinyBERT-L-2-v2 - MRR@10 on MS Marco Dev Set: 32.56
-cross-encoder/ms-marco-MiniLM-L-2-v2 - MRR@10 on MS Marco Dev Set: 34.85
-cross-encoder/ms-marco-MiniLM-L-4-v2 - MRR@10 on MS Marco Dev Set: 37.70
-cross-encoder/ms-marco-MiniLM-L-6-v2 - MRR@10 on MS Marco Dev Set: 39.01
-cross-encoder/ms-marco-MiniLM-L-12-v2 - MRR@10 on MS Marco Dev Set: 39.02
+model_name现有的fine-tinue:<br>
+cross-encoder/ms-marco-TinyBERT-L-2-v2 - MRR@10 on MS Marco Dev Set: 32.56<br>
+cross-encoder/ms-marco-MiniLM-L-2-v2 - MRR@10 on MS Marco Dev Set: 34.85<br>
+cross-encoder/ms-marco-MiniLM-L-4-v2 - MRR@10 on MS Marco Dev Set: 37.70<br>
+cross-encoder/ms-marco-MiniLM-L-6-v2 - MRR@10 on MS Marco Dev Set: 39.01<br>
+cross-encoder/ms-marco-MiniLM-L-12-v2 - MRR@10 on MS Marco Dev Set: 39.02<br>
